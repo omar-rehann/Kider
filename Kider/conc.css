@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Lobster&family=Slackside+One&display=swap');
+body {
+    background-color: #ddd;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+section.head header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 4px;
+    z-index: 100;
+}
+
+section.head img {
+    background-image: url(img/bg-header-top.png);
+    background-size: cover;
+}
+
+section.head header .logo h3 {
+    color: orangered;
+    margin: 0px 10px;
+}
+
+section.head header nav {
+    height: 15px;
+}
+
+section.head header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+section.head header nav ul li {
+    margin: 0px 10px;
+}
+
+section.head header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* section.head header nav ul li a.active {
+    color: orangered;
+} */
+
+section.head header .icon {
+    margin: 0px 10px;
+}
+
+section.head header .icon i {
+    margin: 0px 10px;
+    display: none;
+}
+
+section.head header .icon button {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    /* padding: 0px; */
+    border: none;
+    padding: 5px;
+}
+
+section.head header nav ul li div.link_two {
+    position: relative;
+}
+
+section.head header nav ul li div.link_two div.group-links {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    top: -229px;
+    left: -59px;
+    border-top: solid 2px orangered;
+    transition: 2s;
+}
+
+section.head header nav ul li div.link_two div.group-links.active {
+    top: 29px;
+    left: -59px;
+}
+
+section.head header nav ul li div.link_two div.group-links a {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+}
+
+@media (max-width:992px) {
+    section.head header .icon i {
+        margin: 0px 10px;
+        display: block;
+        cursor: pointer;
+    }
+    section.head header .icon button {
+        display: none;
+    }
+    section.head header nav {
+        height: 15px;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        left: 0;
+        top: 39px;
+        background-color: white;
+        position: fixed;
+        border-top: solid 2px orangered;
+        top: -800px;
+        transition: 2s;
+    }
+    section.head header nav.active {
+        top: 36px;
+    }
+    section.head header nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    section.head header nav ul li {
+        line-height: 2;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    section.head header nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: block;
+        margin: 10px 10px;
+    }
+}
+
+
+/* end hedad */
+
+
+/* ----------------------------------------------------- */
+
+
+/* start landing  */
+
+section.landing {
+    background-image: url(img/carousel-1.jpg);
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+section.landing .continer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+
+section.landing .continer h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section.landing .continer span a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    display: inline;
+    font-size: 30px;
+}
+
+
+/* end landing */
+
+
+/* start school */
+
+
+/* start appoinment */
+
+section.appinment {
+    background-color: #fff5f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.appinment .row .image img {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* end appoinment */
+
+section.popular .row .card .card-body i {
+    font-size: 30px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+
+/* start footer */
+
+section.footer {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+section.footer .box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    border: solid 2px white;
+    transition: 1s;
+}
+
+section.footer .box img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* end footer */

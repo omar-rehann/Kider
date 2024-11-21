@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bec.css">
+</head>
+
+<body>
+    <!-- start page -->
+    <section class="head">
+        <header>
+            <div class="logo">
+                <h3> <i class="fa-solid fa-hands-holding-child" style="color: orangered;margin-right: 10px;"></i>Kider</h3>
+            </div>
+            <nav class="link">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="classe.html">Classes</a>
+                    </li>
+                    <li>
+                        <a href="pop.html">Popluar Teacher</a>
+                    </li>
+                    <li>
+                        <a href="bec.html">Become Teahcer</a>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="conc.html">Concat US</a>
+                    </li>
+                    <li>
+                        <a href="eror.html">404 Error</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <button>Join us <i class="fa-solid fa-chevron-right" style="color: white;margin-left: 10px;"></i></button>
+                <i class="fa-solid fa-bars toggle"></i>
+            </div>
+        </header>
+
+    </section>
+    <section class="landing">
+        <div class="continer">
+            <div class="img-continer">
+                <img src="img/carousel-1.jpg" alt="">
+                <img src="img/carousel-2.jpg" alt="">
+                <img src="img/carousel-1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h2 class="text-light">The Best</h2>
+                <h4 class="text-light">Kindergarten School</h4>
+                <h5 class="text-light">for You Child</h5>
+                <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, modi.</p>
+                <button class="btn btn-danger p-2">Read More</button>
+                <button class="btn btn-light p-2">Our Classes</button>
+
+            </div>
+            <i class="fa-solid fa-right-long right"></i>
+            <i class="fa-solid fa-left-long left"></i>
+        </div>
+    </section>
+    <section class="school mt-4">
+        <div class="contienr text-center mt-5">
+            <h2>School Facilities</h2>
+            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.
+
+            </p>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="box position-relative ">
+
+                        <h4>School Bus</h4>
+                        <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                        <div class="icon position-absolute top-0 start-50 translate-middle ">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="box second  position-relative">
+
+                        <h4>Playground</h4>
+                        <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                        <div class="icon position-absolute top-0 start-50 translate-middle ">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="box third position-relative">
+
+                        <h4>Healthy Canteen</h4>
+                        <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                        <div class="icon position-absolute top-0 start-50 translate-middle">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="box four position-relative">
+
+                        <h4>Healthy Canteen</h4>
+                        <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                        <div class="icon position-absolute top-0 start-50 translate-middle">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="become m-2 p-2">
+        <div class="row m-2">
+            <div class="col-md-6 col-lg-6">
+                <div class="image m-2 mb-2">
+                    <img src="img/call-to-action.jpg" class="w-100 rounded" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="text">
+                    <h2>Become A Teacher
+                    </h2>
+                    <p><i class="fa-solid fa-circle fa-beat-fade" style="margin: 5px;"> </i>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+                    <p><i class="fa-solid fa-circle fa-beat-fade" style="margin: 5px;"> </i>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+                    <p><i class="fa-solid fa-circle fa-beat-fade" style="margin: 5px;"> </i>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+                    <p><i class="fa-solid fa-circle fa-beat-fade" style="margin: 5px;"> </i>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-warning" type="button">Get Started Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="footer ">
+        <div class="row ">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="box " class="one ">
+                    <h2>Omar</h2>
+                    <i class="fa-brands fa-facebook " style="color: #ffffff; "></i>
+                    <i class="fa-brands fa-twitter " style="color: #ffffff; "></i>
+                    <i class="fa-brands fa-linkedin " style="color: #ffffff; "></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam delectus nostrum et quibusdam facere totam libero modi mollitia earum!</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="box ">
+                    <li><a href="# "><i class="fa-solid fa-angles-right " style="color: #0000ff; "></i>Important Link 1</a></li>
+                    <li><a href="# "><i class="fa-solid fa-angles-right " style="color: #0000ff; "></i>Important Link 2</a></li>
+                    <li><a href="# "><i class="fa-solid fa-angles-right " style="color: #0000ff; "></i>Important Link 3</a></li>
+                    <li><a href="# "><i class="fa-solid fa-angles-right " style="color: #0000ff; "></i>Important Link 4</a></li>
+                    <li><a href="# "><i class="fa-solid fa-angles-right " style="color: #0000ff; "></i>Important Link 5</a></li>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="box ">
+                    <div class="line ">
+                        <p><i class="fas fa-map-marker-alt fa-fw " style="color: #0000ff; "></i>Egypt, Giza, Inside The Sphinx, Room Number 220</p>
+                    </div>
+                    <div class="line ">
+                        <div class="info "><i class="far fa-clock fa-fw " style=" color: blue; "></i> Business Hours: From 10:00 To 18:00</div>
+                    </div>
+                    <br>
+                    <div class="line ">
+                        <div class="info ">
+                            <i class="fas fa-phone-volume fa-fw " style="color: blue; "></i>
+                            <span>+20123456789</span>
+                            <span>+20198765432</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="box ">
+                    <img src="img/classes-1.jpg " alt=" " />
+                    <img src="img/carousel-2.jpg " alt=" " />
+                    <img src="img/classes-2.jpg " alt=" " />
+                    <img src="img/classes-4.jpg " alt=" " />
+                    <img src="img/classes-6.jpg " alt=" " />
+                    <img src="img/classes-5.jpg " alt=" " />
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end page -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+    <script src="mian.js "></script>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
